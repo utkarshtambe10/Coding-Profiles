@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Button";
+import { BsCodeSlash } from "react-icons/bs";
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -13,7 +14,7 @@ class Navbar extends Component {
     render ( ) {
         return (
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">React <i className="fab fa-react"></i></h1>
+                <h1 className="navbar-logo"><BsCodeSlash/> Coding Profiles</h1>
                 <div className="menu-icon" onClink={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

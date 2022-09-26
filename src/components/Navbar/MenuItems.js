@@ -1,12 +1,12 @@
 export const MenuItems = [
     {
         title: 'GitHub',
-        url: '#',
+        url: 'https://github.com/utkarshtambe10',
         cName: 'nav-links'
     },
     {
         title: 'LinkedIn',
-        url: '#',
+        url: 'https://linkedin.com/in/utkarshtambe-10',
         cName: 'nav-links'
     }
 ]

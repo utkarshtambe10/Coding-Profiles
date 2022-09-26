@@ -4,14 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .navbar-logo {
     color: #fff;
-    justify-self: start;
+    justify-self: flex-start;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .fa-react {
@@ -21,8 +21,8 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
     list-style: none;
     text-align: center;
     width: 70vw;
